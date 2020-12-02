@@ -15,12 +15,10 @@ function App() {
 
   const onPasswordChange = (evt) => {
     setPassword(evt.target.value);
-    enableRegisterBtn();
   }
 
   const onConfirmPassCHange = (evt) => {
     setConfirmPass(evt.target.value);
-    enableRegisterBtn();
   }
 
   const onSubmit = () => {
